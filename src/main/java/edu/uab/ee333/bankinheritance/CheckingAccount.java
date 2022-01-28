@@ -48,6 +48,7 @@ public class CheckingAccount extends BankAccount {
    */
   @Override
   public void assessMonthlyFee() {
-    balance -= 150;
+    // balance -= 150;
+    balance -= 200; // changed the monthly fee to 200 cents
   }
 }
